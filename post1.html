@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Hyperspace by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Hyperspace</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html" class="active">My Works</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Vokraf Customer Segmentation</h1>
+							<span class="image fit"> <a href="https://public.tableau.com/app/profile/larasati.nugroho/viz/VokrafCustomerAnalysisDashboard/Dashboard1"
+                                target="_blank"><img src="images/Dashboard1.png" alt="" /></a></span>
+					
+                            
+                                  <h2>Contex</h2>
+                                  <p>This project is a data case study for the interview I apply for at Vokraf Company - an online learning
+                                    platform for creative industry in Indonesia. The raw data is given along with the assesment to determine 
+                                    the Average Transaction Per User Value (ATPU) and Median Transaction per User Value (MTPU). The goal is to
+                                    asses the data along with metrics to give insights on how to increase the transaction. </p>
+
+                                  <h2>Data Preparation</h2>
+                                  <p>I conducted data cleaning using Excel on the raw dataset. 
+                                    The steps included removing trailing spaces in columns,
+                                     splitting the timestamp into separate date and time columns, and
+                                     standardizing the price column to ensure consistent data type.
+                                     After that, I finished the null values using the XLOOKUP function, 
+                                     and last to remove the duplicate rows to refine the dataset.</p>
+                    
+                                  <h2>Exploratory Analysis</h2>
+                                  <p>During exploratory analysis,
+                                     I observed that the users in the dataset fall into two distinct categories: 
+                                     "First-time customer" and "Repeated customer" who conduct multiple transactions. 
+                                     It is important as comparison between the Average Transaction Per User (ATPU) 
+                                     and Median Transaction per User (MTPU) values remained consistent
+                                     for the first-time customer group, while showing 
+                                     quite difference for the repeated customer group.</p>
+
+                                    <p>Furthermore, a trend shows on the relation to transaction timing. 
+                                    Specifically, transactions and spending peaked during late hours (between 22:00 and 01:00).
+                                    This trend strongly suggests a correlation between increased ATPU during these late hours,
+                                    especially among first-time customers.</p>
+                              
+                                  <h2>Result : Interactive Dashboard</h2>
+                                  <p>To get a better understanding on ATPU and MTPU for each customers and their transaction habits,
+                                    I build an <a href="https://public.tableau.com/app/profile/larasati.nugroho/viz/VokrafCustomerAnalysisDashboard/Dashboard1"
+                                    target="_blank">interactive dashbaord</a> to drill down each customer preferences.</p>
+
+                                  <h2>Interpretation</h2>
+                                  
+                                  <p>For "First-Time Customers" with high ATPU, a preference for gadget and accessory products on Wednesdays 
+                                    and during late hours was observed. In contrast, those with low ATPU displayed diverse buying patterns, 
+                                    frequently purchasing during morning and afternoon hours. Among "Repeated Customers" with high ATPU, 
+                                    a trend was identified for purchasing home decoration products (like carpets) and gadgets on Fridays and Sundays, 
+                                    primarily during late hours. However, those with low ATPU favored products in the food category.</p>
+
+                                    <h2>What recommendations I could propose to increase the transaction?</h2>
+                                  <p>Tailored strategies are recommended for different segments. 
+                                    For "Low ATPU - Repeated Customers," offering food items at prices close to 
+                                    their MTPU or providing promotions like "1+1" with similar prices could boost transactions.
+                                    For both "High ATPU - Repeated" and "First-Time Customers," focusing on gadget-related deals 
+                                    during late hours could help to increased engagement and frequent transactions, particularly for
+                                     the latter group transitioning to become repeated customers. This approach proposed to
+                                     elevate customer spending and overall transaction rates effectively.</p>
+                                  </p>
+                              
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
